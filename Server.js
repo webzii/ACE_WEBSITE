@@ -38,7 +38,7 @@ app.post("/register", async (req, res) =>{
 app.get("/", function(req, res){
     res.render('home')
 })
-app.listen(4000, function(){ 
+app.listen(3000, function(){ 
     console.log(`Server's started on port `)
 })
 
